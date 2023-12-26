@@ -1,0 +1,7 @@
+azure-eventhub==5.11.5
+azure-identity==1.15.0
+azure-storage-blob==12.19.0
+python-dotenv==1.0.0
+aiohttp==3.9.1
+azure-eventhub-checkpointstoreblob
+azure-eventhub-checkpointstoreblob-aio
