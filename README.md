@@ -5,6 +5,9 @@ O objetivo principal é estudar e aprimorar a compreensão do Azure Event Hub e 
 
 Este repositório serve como um guia prático e educativo para explorar as capacidades do Azure Event Hub e demonstra como integrar componentes essenciais, como o EventProducer e o Event Consumer, em um ambiente de local ou nuvem utilizando python.
 
+## Arquitetura
+![EventHub Architecture](event-streaming-platform.png)
+
 ## Projeto técnico
 Requisitos funcional: Controlar a temperatura em tempo real de uma câmara fria
 
@@ -21,10 +24,9 @@ Requisitos funcional: Controlar a temperatura em tempo real de uma câmara fria
 1) Conectar ao EventHub com as credenciais do Azure Namespace
 2) Criar um EventHubProducerClient utilizando python
 3) Enviar uma mensagem para o EventHub
-
-1) Criar storage account: DataLakeStorageGen2 (Habilitar Hierarchical namespace = DataLake)
-2) Ingestão de dados do eventhub para o DataLake
-3) Criar um EventHubConsumerClient utilizando python
+4) Criar storage account: DataLakeStorageGen2 (Habilitar Hierarchical namespace = DataLake)
+5) Ingestão de dados do eventhub para o DataLake
+6) Criar um EventHubConsumerClient utilizando python
 
 
 ## Referências
