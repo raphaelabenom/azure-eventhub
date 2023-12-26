@@ -16,7 +16,7 @@ Requisitos funcional: Controlar a temperatura em tempo real de uma câmara fria
 	2) Construir uma que trabalhará com o Event Consumer
 5) Testar a solução completa e conectar ao Power BI 
 
----
+--
 
 1) Conectar ao EventHub com as credenciais do Azure Namespace
 2) Criar um EventHubProducerClient utilizando python
@@ -29,7 +29,11 @@ Requisitos funcional: Controlar a temperatura em tempo real de uma câmara fria
 
 ## Referências
 [Event Hub connection with python](https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-python-get-started-send?tabs=connection-string%2Croles-azure-portal)
+<br>
 [azure-eventhub](https://pypi.org/project/azure-eventhub/)
+<br>
 [azure-identity](https://pypi.org/project/azure-identity/)
+<br>
 [AIOHTTP](https://pypi.org/project/aiohttp/)
+<br>
 [Repository Azure Github](https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/eventhub)
